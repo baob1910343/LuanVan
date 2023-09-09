@@ -1,0 +1,54 @@
+.text1{
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+letter-spacing: 6.48px;
+}
+.text2{
+color: #444;
+font-family: Montserrat;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: 85px; /* 193.182% */
+letter-spacing: 2.2px;
+text-transform: uppercase;
+}
+.text3{
+    color: #444;
+font-family: Montserrat;
+font-size: 38px;
+font-style: normal;
+font-weight: 800;
+line-height: 85px;
+letter-spacing: 2.2px;
+text-transform: uppercase;
+}
+.text4{
+    color: #656565;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 147.368% */
+}
+.btn-1{
+    color: #79BCCF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.btn-2{
+    border-radius: 200px;
+background: #FFF;
+box-shadow: 0px 7px 20px 0px rgba(121, 188, 207, 0.40);
+}
+
+
+  
+
+ 
