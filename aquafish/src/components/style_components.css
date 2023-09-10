@@ -11,5 +11,14 @@
 .bg-EFAFBC{
     background:#EFAFBC;
 }
+.bg-svg{
+    
+    
+    background-size: cover;
+    border-radius: 40px 40px 0px 0px;
+    background: linear-gradient(287deg, #EFAFBC 0%, #C3E3FA 100%);
+    stroke-width: 2px;
+stroke: #FFF;
+}
 
 

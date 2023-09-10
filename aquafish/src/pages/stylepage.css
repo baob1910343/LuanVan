@@ -43,12 +43,32 @@ text-transform: uppercase;
     text-transform: uppercase;
 }
 .btn-2{
+
     border-radius: 200px;
 background: #FFF;
 box-shadow: 0px 7px 20px 0px rgba(121, 188, 207, 0.40);
+background-size: cover;
 }
 
-
+.div-cha{
+    position: 'relative'; 
+    height: '100vh',
+}
+.div-1{
+    position: 'absolute';
+    top: '50%';
+    left: '50%';
+     transform: 'translate(-50%, -50%)';
+}
+.div-2{
+    position: 'absolute';
+     top: '50%';
+      left: '50%';
+      transform: 'translate(-50%, -50%)' ;
+}
+svg{
+    display: inline-block;
+}
   
 
  
