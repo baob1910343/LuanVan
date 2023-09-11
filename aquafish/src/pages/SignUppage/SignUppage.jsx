@@ -1,10 +1,10 @@
 
 import React from 'react'
-const ButtonComponent =() => {
+const SignUppage =() => {
     return ( 
        <div>
-            
+            up
        </div>   
     )
 }
-export default ButtonComponent
+export default SignUppage

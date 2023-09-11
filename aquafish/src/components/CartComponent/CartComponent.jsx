@@ -3,10 +3,9 @@ import { Card } from 'antd'
 import React from 'react'
 const CartComponent =({size,textButton, ...rest}) => {
     return ( 
-
+        <div className='m-3 pt-2 pb-2'>
         <Card
             hoverable
-            style={{ width: 200 }}
             cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
             >
         <div>Pleco L46</div>
@@ -15,6 +14,7 @@ const CartComponent =({size,textButton, ...rest}) => {
          </div>
          <div className='text-danger pt-3'><b>300.000d</b></div>
         </Card>
+        </div>
     )
 }
 export default CartComponent

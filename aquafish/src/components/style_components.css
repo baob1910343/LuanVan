@@ -20,5 +20,33 @@
     stroke-width: 2px;
 stroke: #FFF;
 }
+.text2{
+    color: #444;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85px; /* 193.182% */
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+.text1{
+    color: #444;
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+line-height: 85px;
+letter-spacing: 2.2px;
+text-transform: uppercase;
+}
+.text3{
+    color: #010101;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 147.368% */
+}
 
 

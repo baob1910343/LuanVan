@@ -7,6 +7,7 @@ import slider3 from '../../assets/images/L200.png'
 import '../stylepage.css'
 import { RightSquareOutlined} from '@ant-design/icons'
 import CartComponent from '../../components/CartComponent/CartComponent'
+import ButtonComponent from '../../components/ButtonComponent/ButtonComponent'
 const HomePage =() => {
     
     const arr =  ['Cá cảnh', 'Phụ kiện thủy sinh','a' ]
@@ -34,12 +35,21 @@ const HomePage =() => {
                     </div>
                     
               </div>
-                <div className='row m-2 p-2'>
-                    <div className='col-md'>   <CartComponent/></div>
-                </div>      
+                <div className='row m-2 p-2 '>
+                    <div className='col-md-2 bg-success pt-2 pb-2'>   <CartComponent/></div>
+                    <div className='col-md-2 bg-success pt-2 pb-2'>   <CartComponent/></div>
+                    <div className='col-md-2 bg-success pt-2 pb-2'>   <CartComponent/></div>
+                    <div className='col-md-2 bg-success pt-2 pb-2'>   <CartComponent/></div>
+                    <div className='col-md-2 bg-success pt-2 pb-2'>   <CartComponent/></div>
+                    <div className='col-md-2 bg-success pt-2 pb-2'>   <CartComponent/></div>
+                   
+                </div> 
+                 <div className=' row justify-content-center p-2 btn-light'><ButtonComponent textButton={'Xem Thêm'} /></div>
+                   
         </div>
                 
         //truyen hinh anh truc tiep vao mang arr
     )
 }
-export default HomePage
+export default HomePage 
+ // <div className='col-md-2 bg-light'><NavbarComponent/></div>
